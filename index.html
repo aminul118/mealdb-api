@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,12 +21,73 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+
+  <body class="poppins-font">
     <header>
-      <nav></nav>
+      <nav
+        class="flex justify-between items-center py-5 w-11/12 mx-auto sticky z-50"
+      >
+        <a class="text-2xl font-semibold" href="#">Tasty HUT</a>
+        <div>
+          <button class="btn-bg text-xl px-3 py-2 rounded-lg font-semibold">
+            Sign Up
+          </button>
+        </div>
+      </nav>
     </header>
+
     <main></main>
-    <footer></footer>
+
+    <footer
+      class="footer flex flex-col md:flex-row flex-wrap justify-between w-11/12 mx-auto text-center"
+    >
+      <nav>
+        <h6 class="font-semibold text-xl">Section</h6>
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">Features</a>
+        <a class="link link-hover">Pricing</a>
+        <a class="link link-hover">FAQs</a>
+        <a class="link link-hover">About</a>
+      </nav>
+
+      <nav>
+        <h6 class="font-semibold text-xl">Section</h6>
+        <a class="link link-hover">UIUX Design</a>
+        <a class="link link-hover">Product Design</a>
+        <a class="link link-hover">Back End Developer</a>
+        <a class="link link-hover">Front End Developer</a>
+      </nav>
+
+      <nav>
+        <h6 class="font-semibold text-xl">Resource</h6>
+        <a class="link link-hover">FAQs</a>
+        <a class="link link-hover">Support</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Terms of Service</a>
+      </nav>
+      <form>
+        <h6 class="font-semibold text-xl">Subscribe to our Newsletter</h6>
+
+        <fieldset class="form-control w-80">
+          <p class="text-left mb-2">
+            There are many variations of passages of available, but the majority
+            have suffered
+          </p>
+
+          <div class="join">
+            <input
+              type="text"
+              placeholder="username@site.com"
+              class="input input-bordered join-item"
+            />
+            <button class="btn-bg px-3 font-semibold join-item">
+              Subscribe
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
+
     <script src="./index.js"></script>
   </body>
 </html>

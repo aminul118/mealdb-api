@@ -1,4 +1,4 @@
-# mealdb-api
+# Tasty HUT
 Its my practice project for achieving better knowledge of API. 
 
 # key features of the project

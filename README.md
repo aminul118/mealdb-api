@@ -1,8 +1,11 @@
 # Tasty HUT
-Its my practice project for achieving better knowledge of API. 
+
+Its my practice project for achieving better knowledge of API.
 
 # key features of the project
+
 # ES6 features i used i this project
+
 1. Arrow Functions
 2. Template Literals
 3. const and let
@@ -15,6 +18,4 @@ Its my practice project for achieving better knowledge of API.
 
 # Live Link of this project
 
-
-
-
+https://aminul118.github.io/tasty-hut-api/

@@ -4,6 +4,14 @@
   font-family: "Poppins", sans-serif;
 }
 
-.btn-bg{
-    background-color: #FFC107;
+.btn-bg {
+  background-color: #ffc107;
+}
+
+.hero-img {
+  /* background-image: url(./images/banner_1.png); */
+  background-image: linear-gradient(to bottom right, red, yellow);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

@@ -4,6 +4,11 @@ Its my practice project for achieving better knowledge of API.
 
 # key features of the project
 
+- Load data form api -
+  - Image
+  - Name of foods
+  - Description
+
 # ES6 features i used i this project
 
 1. Arrow Functions

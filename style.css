@@ -9,9 +9,12 @@
 }
 
 .hero-img {
-  /* background-image: url(./images/banner_1.png); */
-  background-image: linear-gradient(to bottom right, red, yellow);
+  background-image: url(./images/banner_1.png);
+  /* background-image: linear-gradient(to bottom right, red, yellow); */
+  /* backdrop-filter: 80%; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
 }
